@@ -13,6 +13,7 @@ for i in numbers:
             continue
         if a % b == 0 and a != b:
             is_prime = False
+            break
     if is_prime:
         primes.append(a)
     else:
